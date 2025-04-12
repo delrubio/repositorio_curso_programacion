@@ -19,5 +19,4 @@ public class cosas {
     String texto2 = "Hola";
     char cadena4 = texto2.charAt(1);
 
-
 }
