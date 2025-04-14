@@ -1,4 +1,6 @@
-package org.example.cosas_strings;
+package org.example.Cosas;
+
+import java.util.Random;
 
 public class cosas {
 
@@ -20,11 +22,30 @@ public class cosas {
     char cadena4 = texto2.charAt(1);
 
 
+    //RANDOM
+//    Random random = new Random();
+//    System.out.println(random.nextInt(10,40)); del 10 al 40.
+
+
     //asList()
-    Scanner teclado  = new Scanner(System.in);
-    String colores[] = {"azul","rojo","amarillo","verde","negro"};
-    System.out.println("Introduce un color: ");
-    String color = teclado.next();
-    boolean color_encontrado = Arrays.asList(colores).contains(color);
+//    Scanner teclado  = new Scanner(System.in);
+//    String colores[] = {"azul","rojo","amarillo","verde","negro"};
+//    System.out.println("Introduce un color: ");
+//    String color = teclado.next();
+//    boolean color_encontrado = Arrays.asList(colores).contains(color);
+//
+//    //ORDENACIÓN DE ARRAYS Y ELIMINAR DUPLICADOS
+//    int [] array = {4,6,2,8,7};
+//    Arrays.sort(array);
+//
+//    Integer [] array = {4,6,2,8,7};
+//    Arrays.sort(array, Collections.reverseOrder());
+//
+//    int vector[] = {3,3,7,8,8,9,10,15,15};
+//    int vector2[] = Arrays.stream(vector).distinct().toArray();
+//    System.out.println(Arrays.toString(vector));
+//    System.out.println(Arrays.toString(vector2));
+
+
 
 }

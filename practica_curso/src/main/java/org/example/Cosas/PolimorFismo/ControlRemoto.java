@@ -1,4 +1,5 @@
 package org.example.Cosas.PolimorFismo;
 
-public class ControlRemoto {
+public interface ControlRemoto {
+    void sincronizar();
 }
