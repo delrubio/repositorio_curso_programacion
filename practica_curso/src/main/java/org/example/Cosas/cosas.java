@@ -19,4 +19,12 @@ public class cosas {
     String texto2 = "Hola";
     char cadena4 = texto2.charAt(1);
 
+
+    //asList()
+    Scanner teclado  = new Scanner(System.in);
+    String colores[] = {"azul","rojo","amarillo","verde","negro"};
+    System.out.println("Introduce un color: ");
+    String color = teclado.next();
+    boolean color_encontrado = Arrays.asList(colores).contains(color);
+
 }
