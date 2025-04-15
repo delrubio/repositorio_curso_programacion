@@ -1,5 +1,7 @@
 package org.example.Cosas;
 
+import java.util.Collections;
+import java.util.List;
 import java.util.Random;
 
 public class cosas {
@@ -21,6 +23,11 @@ public class cosas {
     String texto2 = "Hola";
     char cadena4 = texto2.charAt(1);
 
+
+//    //todo le que utilize este metodo no lo va a poder modificar la lista.
+//    public List<String> getListaArbi(){
+//        return Collections.unmodifiableList(listaArbi);
+//    }
 
     //RANDOM
 //    Random random = new Random();

@@ -1,7 +1,5 @@
 package org.example.Collection.ExamenPizza;
 
-import org.example.herencia_concierto.EdadValidaException;
-
 import java.util.Scanner;
 
 public class AppPizzaExpress {
