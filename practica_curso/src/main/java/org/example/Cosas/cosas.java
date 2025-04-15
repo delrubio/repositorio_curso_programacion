@@ -53,6 +53,12 @@ public class cosas {
 //    System.out.println(Arrays.toString(vector));
 //    System.out.println(Arrays.toString(vector2));
 
+//    try{
+//        anyo_nacimiento = Integer.parseInt(anyo);
+//    }catch(NumberFormatException e1){
+//        System.out.println("El formato del año no es correcto. " + e1.getMessage());
+//    }
+
 
 
 }
