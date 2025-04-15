@@ -1,11 +1,11 @@
-package org.example.Collection;
+package org.example.Collection.Colas;
 
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Colas {
+public class Main {
 
     static Scanner teclado = new Scanner(System.in);
 
